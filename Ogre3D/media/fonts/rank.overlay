@@ -1,0 +1,71 @@
+rankState
+{
+   zorder 500
+
+   container Panel(rankStatePanel)
+   {
+      metrics_mode relative
+      left 0.0
+      top 0.0
+
+      width 1.0
+      height .1
+
+      element TextArea(rankState_Title)
+      {
+         metrics_mode relative
+
+         left 0.3
+         top 0.4
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .05
+         colour 1.0 1.0 1.0
+         caption Ranking in Ogre-Project
+      }
+
+      element TextArea(rankState_1st)
+      {
+         metrics_mode relative
+
+         left 0.80
+         top 0.55
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+      }
+
+      element TextArea(rankState_2nd)
+      {
+         metrics_mode relative
+
+         left 0.80
+         top 0.70
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+      }
+
+      element TextArea(rankState_3rd)
+      {
+         metrics_mode relative
+
+         left 0.80
+         top 0.85
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+      }
+   }
+}

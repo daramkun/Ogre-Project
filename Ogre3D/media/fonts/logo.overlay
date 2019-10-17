@@ -1,0 +1,44 @@
+forOurLogo
+{
+   zorder 500
+
+   container Panel(forOurLogoPanel)
+   {
+      metrics_mode relative
+      left 0.0
+      top 0.0
+
+      width 1.0
+      height .1
+
+      element TextArea(forOurLogo_Name)
+      {
+         metrics_mode relative
+
+         left 0.02
+         top 0.02
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .05
+         colour 1.0 1.0 1.0
+         caption The 9th Team
+      }
+
+      element TextArea(forOurLogo_Info)
+      {
+         metrics_mode relative
+
+         left 0.02
+         top 0.5
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+         caption Press any key to continue.
+      }
+   }
+}

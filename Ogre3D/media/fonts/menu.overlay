@@ -1,0 +1,59 @@
+menuState
+{
+   zorder 500
+
+   container Panel(menuStatePanel)
+   {
+      metrics_mode relative
+      left 0.0
+      top 0.0
+
+      width 1.0
+      height .1
+
+      element TextArea(menuState_Title)
+      {
+         metrics_mode relative
+
+         left 0.01
+         top 0.01
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .05
+         colour 1.0 1.0 1.0
+         caption Ogre-Project
+      }
+
+      element TextArea(menuState_Menu1)
+      {
+         metrics_mode relative
+
+         left 0.05
+         top 0.15
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+         caption 1. Start
+      }
+
+      element TextArea(menuState_Menu2)
+      {
+         metrics_mode relative
+
+         left 0.05
+         top 0.30
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+         caption 2. Ranking
+      }
+   }
+}

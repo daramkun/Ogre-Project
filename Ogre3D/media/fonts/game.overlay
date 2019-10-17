@@ -1,0 +1,29 @@
+elapsTime
+{
+   zorder 500
+
+   container Panel(elapsTimePanel)
+   {
+      metrics_mode relative
+      left 0.0
+      top 0.0
+
+      width 1.0
+      height .1
+
+      element TextArea(elapsTime)
+      {
+         metrics_mode relative
+
+         left 0.01
+         top 0.01
+         width 0.5
+         height 1.0
+
+         font_name StarWars
+         char_height .03
+         colour 1.0 1.0 1.0
+         caption Elapsed time : 0
+      }
+   }
+}
